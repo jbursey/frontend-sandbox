@@ -1,0 +1,48 @@
+.test
+{
+    background-color: #FF00FF;
+    color: #333;
+    font-weight: 800;
+    padding: 25px;
+}
+
+#container
+{
+    display: flex;
+    position: relative;
+    background-image: url("trees.jpg");
+    background-color: brown;
+    background-size: cover;
+    height: 500px;
+    
+}
+
+.card
+{
+    flex: 1;
+    height: 200px;
+    margin: 20px;
+}
+
+.blue
+{
+    background-color: #00FF00;
+}
+
+.red
+{
+    background-color: #FF0000;
+}
+
+@media (max-width: 800px)
+{
+    .test 
+    {
+        background-color: aqua;
+    }
+
+    #container
+    {
+        flex-direction: column;
+    }
+}
