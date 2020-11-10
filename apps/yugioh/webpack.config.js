@@ -18,4 +18,6 @@ module.exports = {
     filename: 'app.js',
     path: path.resolve(__dirname, 'scripts'),
   },
+  mode: "development",
+  devtool: "inline-source-map"
 };

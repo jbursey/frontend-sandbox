@@ -7,7 +7,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="src\CharComponent.tsx" />
+    <None Remove="src\index.tsx" />
+    <None Remove="src\ValidationComponent.tsx" />
+    <None Remove="styles.d.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <TypeScriptCompile Include="src\CharComponent.tsx" />
+    <TypeScriptCompile Include="src\index.tsx" />
+    <TypeScriptCompile Include="src\ValidationComponent.tsx" />
+    <TypeScriptCompile Include="src\styles.d.ts" />
   </ItemGroup>
 
 </Project>
